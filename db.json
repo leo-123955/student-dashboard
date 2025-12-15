@@ -1,0 +1,35 @@
+{
+  "students": [
+    { "id": 1, "name": "Alice Johnson", "gender": "female", "GPA": 4.5, "course": "CS101" },
+    { "id": 2, "name": "Bob Smith", "gender": "male", "GPA": 3.8, "course": "CS102" },
+    { "id": 3, "name": "Charlie Brown", "gender": "male", "GPA": 3.2, "course": "CS101" },
+    { "id": 4, "name": "Diana Prince", "gender": "female", "GPA": 4.1, "course": "CS103" },
+    { "id": 5, "name": "Ethan Hunt", "gender": "male", "GPA": 3.9, "course": "CS102" }
+  ],
+  "registrations": [
+    { "id": 1, "studentId": 1, "date": "2025-12-01" },
+    { "id": 2, "studentId": 2, "date": "2025-12-02" },
+    { "id": 3, "studentId": 3, "date": "2025-12-03" },
+    { "id": 4, "studentId": 4, "date": "2025-12-04" },
+    { "id": 5, "studentId": 5, "date": "2025-12-05" }
+  ],
+  "courses": [
+    { "id": "CS101", "name": "Introduction to Computing" },
+    { "id": "CS102", "name": "Data Structures" },
+    { "id": "CS103", "name": "Web Development" }
+  ],
+  "assignments": [
+    { "id": 1, "studentId": 1, "course": "CS101", "title": "Assignment 1", "score": 95 },
+    { "id": 2, "studentId": 2, "course": "CS102", "title": "Assignment 1", "score": 88 },
+    { "id": 3, "studentId": 3, "course": "CS101", "title": "Assignment 1", "score": 72 },
+    { "id": 4, "studentId": 4, "course": "CS103", "title": "Assignment 1", "score": 91 },
+    { "id": 5, "studentId": 5, "course": "CS102", "title": "Assignment 1", "score": 85 }
+  ],
+  "tests": [
+    { "id": 1, "studentId": 1, "course": "CS101", "title": "Midterm", "score": 90 },
+    { "id": 2, "studentId": 2, "course": "CS102", "title": "Midterm", "score": 82 },
+    { "id": 3, "studentId": 3, "course": "CS101", "title": "Midterm", "score": 70 },
+    { "id": 4, "studentId": 4, "course": "CS103", "title": "Midterm", "score": 88 },
+    { "id": 5, "studentId": 5, "course": "CS102", "title": "Midterm", "score": 84 }
+  ]
+}
