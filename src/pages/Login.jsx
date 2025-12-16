@@ -1,17 +1,23 @@
-import { useAuth } from "../context/AuthContext";
+// src/pages/Login.jsx
+import React, { useState } from 'react';
+import { useAuth } from '../context/AuthContext';
 
-function Login() {
-  const { login } = useAuth();
-
+function Login({ onLogin }) {
   const handleSubmit = (e) => {
     e.preventDefault();
-    login("staff@demo.com", "1234");
+    // simple mock login
+    onLogin();
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <button>Login</button>
-    </form>
+    <div className="login-page">
+      <form className="login-form" onSubmit={handleSubmit}>
+        <h2>Staff Login</h2>
+        <input type="text" placeholder="Username" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+      </form>
+    </div>
   );
 }
 
